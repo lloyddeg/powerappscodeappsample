@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "appId": "942673ed-15c9-448a-a5e8-a7272c620a68",
+  "appDisplayName": "Hello World",
+  "region": "prod",
+  "appType": "CodeApp",
+  "environmentId": "5caccc3d-bf83-e4fd-88ed-ecc7b9a5fc1d",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "saleitems": {
+          "entitySetName": "contoso_saleitems",
+          "logicalName": "contoso_saleitem",
+          "isHidden": false
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
+}
